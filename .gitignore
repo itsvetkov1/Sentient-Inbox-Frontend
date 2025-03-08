@@ -1,101 +1,67 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
-venv/
-env/
-ENV/
-.env
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-.DS_Store
-
-# Logs
-*.log
-logs/
-log/
-
-# Local development
-*.db
-*.sqlite3
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+yarn.lock
+package-lock.json
 
 # Testing
-.coverage
-htmlcov/
-.tox/
-.pytest_cache/
-coverage.xml
-*.cover
+/coverage
+/cypress/videos
+/cypress/screenshots
 
-# Distribution
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-
-# Documentation
-docs/_build/
-doc/_build/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Credentials and secrets
-*.pem
-*.key
-client_secret*.json
-token*.json
-credentials*.json
-
-
-# Backup files
-data/secure/backups/
-*.bin
-
-# Frontend
-/frontend/**
-/node_modules
-/dist
+# Production build
 /build
-/public
+/dist
+/out
 
-# Frontend development
-*.lock
-package-lock.json
-yarn.lock
+# Development artifacts
+.eslintcache
+.stylelintcache
+
+# Environment files
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env*.local
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Editor and IDE files
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary files
+.tmp
+.temp
+*.bak
+*.backup
+
+# Cache directories
+.cache
+.parcel-cache
+.npm
+.next
+.nuxt
+.cache
+.docusaurus
+
+# Misc
+*.pem
+*.log
+*.tgz
+/public/mockServiceWorker.js
+.vercel
+.netlify

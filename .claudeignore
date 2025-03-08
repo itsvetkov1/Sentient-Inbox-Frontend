@@ -1,0 +1,83 @@
+# Explicitly exclude backend-related paths
+/api/
+/src/api/
+/backend/
+/server/
+
+# Dependency directories
+/node_modules/
+/.pnp/
+.pnp.js
+
+# Production build artifacts
+/build/
+/dist/
+/out/
+
+# Large binary or media files
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.pdf
+*.sketch
+*.fig
+*.psd
+*.ai
+*.xd
+
+# Development environments
+/.vscode/
+/.idea/
+/.vs/
+
+# Common environment and config files
+.env
+.env.*
+*.env
+*.config.js
+*.config.ts
+
+# Cache directories
+.cache/
+.parcel-cache/
+.npm/
+.next/
+.nuxt/
+
+# Debug and log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Testing
+/coverage/
+/cypress/videos/
+/cypress/screenshots/
+/__mocks__/
+/__tests__/
+/test/
+/tests/
+*.spec.js
+*.test.js
+*.spec.ts
+*.test.ts
+
+# Documentation files (optional, depending on needs)
+# *.md
+# /docs/
+
+# Misc
+.gitignore
+.prettierignore
+.eslintignore
